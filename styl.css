@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(32,34,56);
+}
+.ludo{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+}
+.blue,.red,.yellow,.green{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+
+.box{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box .insidebox{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
+
+.blueFont{
+    color: blue;
+}
+.redFont{
+    color: red;
+}
+.yellowFont{
+    color: yellow;
+}
+.greenFont{
+    color: green;
+}
+.bluebackground{
+    background-color: blue;
+}
+.redbackground{
+    background-color: red;
+}
+.yellowbackground{
+    background-color: yellow;
+}
+.greenbackground{
+    background-color: green;
+}
+
+.square{
+    width: 31px;
+    height: 39.5px;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+}
+.squarecontainer{
+    display: flex;
+}
+.row{
+    width: 600px;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+.row1{
+    display: flex;
+
+}
+.ludoCenter{
+    font-size: 100px;
+    color: yellow;
+    position: absolute;
+    background-color: black;
+    width: 202px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

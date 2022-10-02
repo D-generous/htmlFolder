@@ -1,0 +1,46 @@
+*,*:before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containter{
+    width: 600px;
+    height: 600px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.containter1,.containter3{
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+.containter2{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+.row1-col1,
+.row1-col3,
+.row3-col1,
+.row3-col3{
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 1px solid rgb(16, 11, 11); 
+}
+.row1-col2,
+.row3-col2{
+    width: 20%;
+    height: 100%;
+}
+.row2-col1,
+.row2-col3{
+    width: 40%;
+    height: 100%;
+}
+.row2-col2{
+    width: 20%;
+    height: 100%;
+}
